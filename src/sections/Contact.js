@@ -4,9 +4,14 @@ import fb from '../images/facebook.png'
 const Contact = () => {
   return (
     <section id="contact" className="section">
-      <h2>Contact Us</h2>
+      <div className="container">
+        <div className="content">
+          <h1>Contact <span className="highlight"> us </span></h1>
+        
+        </div>
+        </div>
       <div className="contact-info">
-        <p>For repairs, WhatsApp us at: <a href="https://wa.me/919691625195" className="contact-link">+91 9691625195</a></p>
+        <p>For repairs contact us on Whatsapp<a href="https://wa.me/919691625195" className="contact-link">+91 9691625195</a></p>
         <p>Contact us via email: <a href="mailto:fixthisservice@gmail.com" className="contact-link">fixthisservice@gmail.com</a></p>
         <p>Follow us on social media:</p>
         <div className="social-links">

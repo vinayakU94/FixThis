@@ -10,7 +10,9 @@ const Home = () => {
             At FixThis, we specialize in providing efficient and reliable repair services for a wide range of appliances and electronics. Our goal is to make your life easier by offering convenient solutions that save you time and hassle.
           </p>
         </div>
-        <h2>Why <span className="highlight">FixThis</span></h2>
+        <div className="content">
+          <h1>Why <span className="highlight">FixThis</span></h1>
+       </div>
         <div className="featureshome">
           <div className="feature">
             <h2>Ultimate Single-Day Repair Solutions</h2>

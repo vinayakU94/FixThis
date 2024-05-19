@@ -11,11 +11,11 @@ const Services = () => {
     <section id="services" className="section">
       <div className="container">
         <div className="content">
-          <h1>Repair services we <span className="highlight">offer</span></h1>
+          <h1>Repair services<span className="highlight"> we offer</span></h1>
           <p className="description">
           From clocks to power tools, we repair a wide range of household items and electronic devices. Whether it's a kitchen appliance like a blender or a household essential like a table fan, count on us to keep your belongings running smoothly.          </p>
         </div>
-        <h2>Our Services</h2>
+     
         <div className="features">
           <div className="feature">
             <img src={Clock} alt="Timepieces" />
