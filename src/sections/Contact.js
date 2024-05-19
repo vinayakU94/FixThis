@@ -1,6 +1,6 @@
 import React from 'react';
-
-
+import instagram from '../images/instagram.png'
+import fb from '../images/facebook.png'
 const Contact = () => {
   return (
     <section id="contact" className="section">
@@ -10,9 +10,34 @@ const Contact = () => {
         <p>Contact us via email: <a href="mailto:fixthisservice@gmail.com" className="contact-link">fixthisservice@gmail.com</a></p>
         <p>Follow us on social media:</p>
         <div className="social-links">
-          <a href="https://www.instagram.com/fixthisservices?igsh=MWgybjhvamIzaWZhYg==" target="_blank" rel="noopener noreferrer" className="social-link">Instagram</a>
-          <a href="https://www.facebook.com/share/a87urr8PMRn9ZWWM/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer" className="social-link">Facebook</a>
-        </div>
+  <a 
+  href="https://www.instagram.com/fixthisservices?igsh=MWgybjhvamIzaWZhYg==" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="social-link"
+>
+  <img 
+    className="instagram-logo" 
+    src={instagram} 
+    alt="Instagram logo" 
+  />
+  Instagram
+</a>
+<a 
+  href="https://www.facebook.com/share/a87urr8PMRn9ZWWM/?mibextid=qi2Omgg==" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="social-link"
+>
+  <img 
+    className="instagram-logo" 
+    src={fb} 
+    alt="Instagram logo" 
+  />
+  Facebook
+</a>
+    
+      </div>
       </div>
     </section>
   );

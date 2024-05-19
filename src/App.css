@@ -126,6 +126,9 @@ h1 {
   text-align: center; /* Center the content */
 }
 
+.contact-padding{
+  padding-right: 30px;
+}
 .feature img {
   width: 80px;
 }
@@ -188,17 +191,28 @@ h2 {
 }
 
 .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
 }
 
 .social-link {
-  margin-right: 15px;
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Optional: remove underline from link */
+  color: inherit; /* Optional: keep link text color same as surrounding text */
+  margin-right: 10px;
+}
+
+.instagram-logo {
+  width: 30px; /* Adjust the size as needed */
+  height: 30px; /* Adjust the size as needed */
+  margin-right: 8px; /* Space between logo and link text */
+  /* Add any other styling you need */
 }
 
 .social-link:hover {
   color: #007bff;
 }
+
