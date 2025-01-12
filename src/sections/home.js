@@ -34,7 +34,7 @@ const Home = () => {
         </div>
         <div className="cta">
         <br></br>
-        <a href="https://wa.me/919691625195" className="whatsapp-button" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/919325150810" className="whatsapp-button" target="_blank" rel="noopener noreferrer">
         <button>Lets Fix This !</button>
       </a>
       <p> Ps: This will redirect you to our whatsapp </p>
